@@ -38,5 +38,17 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- **Team-level** (Low/Medium risk): Triage in daily standup; Owner documents mitigation in Risk Register.
+- **PM level** (Medium/High risk): PM escalates to Product Lead and dependent teams; update stakeholders within 24 hours.
+- **Sponsor level** (High/Critical risk): PM escalates to Sponsor; blocker must have a mitigation or decision within 48 hours.
+- **Security incidents**: Notify Security Champion and follow the security incident runbook; loop in DevOps Engineer for infrastructure issues; escalate to PM and Sponsor if customer data or compliance is at risk.
+- **Release-blocking issues**: Release Manager coordinates go/no-go decision with PM, QA, and Security Champion before proceeding.
+
+## Risk Ownership
+| Role | Responsibility |
+|---|---|
+| Project Manager (PM) | Owns Risk Register; facilitates weekly risk review |
+| Security Champion | Owns security and compliance risks |
+| DevOps Engineer | Owns infrastructure and pipeline risks |
+| Release Manager | Owns release-related risks and go/no-go decisions |
+| Developers | Surface technical risks during planning and daily standups |

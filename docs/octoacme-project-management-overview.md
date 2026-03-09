@@ -19,6 +19,13 @@ Applies to all cross-functional projects that deliver product features, services
 - Developers: implement features, collaborate on design and testability.
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+- Release Manager: owns the release plan, cutover checklist, and go/no-go coordination.
+- Documentation Lead: ensures process docs, release notes, and user guides are accurate and complete.
+- DevOps Engineer: owns CI/CD pipelines, automation, and infrastructure reliability.
+- Security Champion: drives security reviews, threat modeling, and risk mitigation.
+- Customer Experience Advocate: represents customer feedback and usability in planning and delivery.
+
+See [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md) for full role descriptions and interaction patterns.
 
 ## Key Artifacts
 - Project Charter / One-pager
